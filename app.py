@@ -1,7 +1,7 @@
 import streamlit as st
-from src.data_loader import load_data
-from src.kpis import compute_kpis
-from src.charts import (
+from data_loader import load_data
+from kpis import compute_kpis
+from charts import (
     sales_by_category_chart,
     sales_by_region_chart,
     monthly_sales_chart,
