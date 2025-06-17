@@ -12,7 +12,7 @@ st.set_page_config(layout='wide', page_title='Superstore Sales Dashboard')
 st.title("📊 Superstore Sales Dashboard")
 
 # Load and filter data
-df = load_data('data/Superstore.csv')
+df = load_data('Superstore.csv')
 
 # Sidebar filters
 regions = st.sidebar.multiselect("Select Region(s):", df['Region'].unique(), default=df['Region'].unique())
